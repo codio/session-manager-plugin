@@ -1,6 +1,6 @@
 module github.com/codio/session-manager-plugin
 
-go 1.23.3
+go 1.25.0
 
 require (
 	github.com/aws/aws-sdk-go v1.55.5
@@ -12,9 +12,9 @@ require (
 	github.com/stretchr/testify v1.10.0
 	github.com/twinj/uuid v0.0.0-20151029044442-89173bcdda19
 	github.com/xtaci/smux v1.5.32
-	golang.org/x/crypto v0.29.0
+	golang.org/x/crypto v0.52.0
 	golang.org/x/sync v0.9.0
-	golang.org/x/sys v0.27.0
+	golang.org/x/sys v0.45.0
 )
 
 require (
@@ -22,6 +22,6 @@ require (
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/stretchr/objx v0.5.2 // indirect
-	golang.org/x/term v0.26.0 // indirect
+	golang.org/x/term v0.43.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
